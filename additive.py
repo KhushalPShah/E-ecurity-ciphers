@@ -20,7 +20,8 @@ def flatten(number) :
     return number - (26*(number//26))
 
 if __name__ == "__main__":
-    texts = decrypt("VGFLX GJYWL LGTMQ LZWLA UCWLK LGLZW UGFUW JL")
+    encrypted= input("Enter the encrypted text: ")
+    texts = decrypt(encrypted)
     i = 0
     for text in texts:
         print(i, text)
