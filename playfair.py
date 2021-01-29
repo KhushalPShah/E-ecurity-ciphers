@@ -38,8 +38,6 @@ def encrypt(plain, mat):
         sets.append(tmp)
         tmp = []
 
-    print(sets)
-
     for s in sets:
         tmp = []
         (c1,r1,i1,c2,r2,i2) = check_columns_rows(s,mat)
